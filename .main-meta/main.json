@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr64dd32-getting-started-with-tcb-mplabx-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Timer Counter Type B (TCB) in Three Different Modes Using the AVR64DD32 Microcontroller Generated with MCC Melody",
         "projectName": "avr64dd32-getting-started-with-tcb-mplabx-mcc",
         "shortDescription": "Getting started with TCB and MCC for AVR64DD32",
         "ide": {
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^2.1.152"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "N/A",
+            "semverRange": " "
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,13 @@
             }
         },
         "author": "Andrei Buruiana",
-        "peripherals": [],
-        "keywords": [],
+         "peripherals": [
+            "TCB"
+        ],
+        "keywords": [
+            "Getting Started",           
+			"TCB"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
